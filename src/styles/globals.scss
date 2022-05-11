@@ -1,0 +1,47 @@
+:root {
+  --pink: #FF57B2;
+  --gray-100: #F8F8F8;
+  --gray-300: #D7D7D7;
+  --gray-600: #BBBBBB;
+  --black-500: #1A1D23;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--black-500);
+  color: var(--gray-100);
+}
+
+body, input, textarea, button, select {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
